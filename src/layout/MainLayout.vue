@@ -25,11 +25,11 @@ const menu = ref(false);
           <div class="rounded-full">
             <img src="../assets/covers/profile-image.png" alt="" />
           </div>
-          <h1 class="mt-6 text-3xl text-white font-medium">Camila Medina</h1>
+          <h1 class="mt-6 text-[24px] text-white font-medium">Camila Medina</h1>
 
-          <div class="mt-10 h-1/2 overflow-scroll">
+          <div class="mt-10 h-[20em] overflow-scroll">
             <ol>
-              <li class="my-10 text-xl text-white flex items-end">
+              <li class="my-10 text-[18px] text-white flex items-end">
                 <img
                   src="../assets/icons/user.png"
                   alt=""
@@ -37,7 +37,7 @@ const menu = ref(false);
                 />
                 <span class="ml-12">Perfil</span>
               </li>
-              <li class="my-10 text-xl text-white flex items-end">
+              <li class="my-10 text-[18px] text-white flex items-end">
                 <img
                   src="../assets/icons/group.png"
                   alt=""
@@ -45,7 +45,7 @@ const menu = ref(false);
                 />
                 <span class="ml-12">Eventos Guardados</span>
               </li>
-              <li class="my-10 text-xl text-white flex items-end">
+              <li class="my-10 text-[18px] text-white flex items-end">
                 <img
                   src="../assets/icons/settings.png"
                   alt=""
@@ -53,7 +53,7 @@ const menu = ref(false);
                 />
                 <span class="ml-12">Definições</span>
               </li>
-              <li class="my-10 text-xl text-white flex items-end">
+              <li class="my-10 text-[18px] text-white flex items-end">
                 <img
                   src="../assets/icons/question.png"
                   alt=""
@@ -61,7 +61,7 @@ const menu = ref(false);
                 />
                 <span class="ml-12">Ajuda & Duvidas</span>
               </li>
-              <li class="my-10 text-xl text-white flex items-end">
+              <li class="my-10 text-[18px] text-white flex items-end">
                 <img
                   src="../assets/icons/logout.png"
                   alt=""
@@ -72,7 +72,7 @@ const menu = ref(false);
             </ol>
           </div>
 
-          <div class="fixed bottom-20 flex items-center logo">
+          <div class="flex items-center logo mb-24">
             <img src="../assets/icons/icon-logo.png" alt="" class="img-1" />
             <img src="../assets/icons/text-logo.png" alt="" class="img-2" />
           </div>

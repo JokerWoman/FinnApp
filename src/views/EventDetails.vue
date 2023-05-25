@@ -37,7 +37,7 @@ import BottomNavBar from "@/components/BottomNavBar.vue";
       </div>
     </div>
 
-    <div class="grid grid-cols-2 gap-y-8 gap-x-6 mt-8 pl-12">
+    <div class="grid grid-cols-2 gap-y-8 gap-x-6 mt-8 px-12">
       <div class="flex items-center">
         <img
           src="../assets/icons/calendar.png"
@@ -84,7 +84,12 @@ import BottomNavBar from "@/components/BottomNavBar.vue";
     </div>
 
     <div class="w-full px-12 mt-8 relative z-10">
-      <img src="../assets/covers/maps.png" style="max-width: none" alt="" />
+      <img
+        src="../assets/covers/maps.png"
+        style="max-width: none"
+        class="w-full"
+        alt=""
+      />
     </div>
 
     <bottom-nav-bar />

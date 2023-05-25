@@ -10,7 +10,7 @@ const menu = ref(false);
   <div>
     <top-nav-bar @toggle="menu = !menu" />
 
-    <div v-if="menu" class="w-screen h-screen z-50 fixed top-0">
+    <div v-if="menu" class="w-screen h-full z-50 fixed top-0">
       <div
         class="h-screen min-w-[250px] w-[80vw] max-w-[400px] bg-[#252525] z-100 absolute top-0 rounded-tr-[157px]"
       >
@@ -21,15 +21,15 @@ const menu = ref(false);
           <img src="../assets/icons/close.png" alt="" style="height: 1.5em" />
         </button>
 
-        <div class="py-32 px-8 relative">
+        <div class="py-[40%] px-8 relative flex flex-col">
           <div class="rounded-full">
             <img src="../assets/covers/profile-image.png" alt="" />
           </div>
-          <h1 class="mt-6 text-[24px] text-white font-medium">Camila Medina</h1>
+          <h1 class="mt-6 text-[1em] text-white font-medium">Camila Medina</h1>
 
-          <div class="mt-10 h-[20em] overflow-scroll">
+          <div class="mt-6 h-[20em] overflow-scroll">
             <ol>
-              <li class="my-10 text-[18px] text-white flex items-end">
+              <li class="my-10 text-[0.9em] text-white flex items-end">
                 <img
                   src="../assets/icons/user.png"
                   alt=""
@@ -37,7 +37,7 @@ const menu = ref(false);
                 />
                 <span class="ml-12">Perfil</span>
               </li>
-              <li class="my-10 text-[18px] text-white flex items-end">
+              <li class="my-10 text-[0.9em] text-white flex items-end">
                 <img
                   src="../assets/icons/group.png"
                   alt=""
@@ -45,7 +45,15 @@ const menu = ref(false);
                 />
                 <span class="ml-12">Eventos Guardados</span>
               </li>
-              <li class="my-10 text-[18px] text-white flex items-end">
+              <li class="my-10 text-[0.9em] text-white flex items-end">
+                <img
+                  src="../assets/icons/group.png"
+                  alt=""
+                  style="max-width: none"
+                />
+                <span class="ml-12">Eventos Guardados</span>
+              </li>
+              <li class="my-10 text-[0.9em] text-white flex items-end">
                 <img
                   src="../assets/icons/settings.png"
                   alt=""
@@ -53,7 +61,7 @@ const menu = ref(false);
                 />
                 <span class="ml-12">Definições</span>
               </li>
-              <li class="my-10 text-[18px] text-white flex items-end">
+              <li class="my-10 text-[0.9em] text-white flex items-end">
                 <img
                   src="../assets/icons/question.png"
                   alt=""
@@ -61,7 +69,7 @@ const menu = ref(false);
                 />
                 <span class="ml-12">Ajuda & Duvidas</span>
               </li>
-              <li class="my-10 text-[18px] text-white flex items-end">
+              <li class="my-10 text-[0.9em] text-white flex items-end">
                 <img
                   src="../assets/icons/logout.png"
                   alt=""
@@ -72,7 +80,7 @@ const menu = ref(false);
             </ol>
           </div>
 
-          <div class="flex items-center logo mb-24">
+          <div class="flex items-center logo fixed bottom-10">
             <img src="../assets/icons/icon-logo.png" alt="" class="img-1" />
             <img src="../assets/icons/text-logo.png" alt="" class="img-2" />
           </div>

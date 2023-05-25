@@ -10,7 +10,7 @@ const menu = ref(false);
   <div>
     <top-nav-bar @toggle="menu = !menu" />
 
-    <div v-if="menu" class="w-screen h-screen z-50 absolute top-0">
+    <div v-if="menu" class="w-screen h-screen z-50 fixed top-0">
       <div
         class="h-screen min-w-[250px] w-[80vw] max-w-[400px] bg-[#252525] z-100 absolute top-0 rounded-tr-[157px]"
       >
@@ -21,13 +21,13 @@ const menu = ref(false);
           <img src="../assets/icons/close.png" alt="" style="height: 1.5em" />
         </button>
 
-        <div class="pt-32 px-8 relative">
+        <div class="py-32 px-8 relative">
           <div class="rounded-full">
             <img src="../assets/covers/profile-image.png" alt="" />
           </div>
           <h1 class="mt-6 text-3xl text-white font-medium">Camila Medina</h1>
 
-          <div class="mt-20">
+          <div class="mt-10 h-1/2 overflow-scroll">
             <ol>
               <li class="my-10 text-xl text-white flex items-end">
                 <img

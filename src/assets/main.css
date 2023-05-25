@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Novatica";
+  src: url("./fonts/Novatica.ttf");
+}
+
+@font-face {
+  font-family: "Euclid Circular A";
+  src: url("./fonts/Euclid Circular A.ttf");
+}
+
+body {
+  background: black;
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar{
+  width: 0px;
+  height: 0px;
+  background-color: #F5F5F5;
+}
+::-webkit-scrollbar-track{
+  background-color: #ffffff;
+}
+::-webkit-scrollbar-thumb{  
+  background-color: #CCCCCC;
+}
